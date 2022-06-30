@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF92B7</color>
+    <color name="onPrimary">#FFE9F5</color>
+    <color name="primaryContainer">#FFDADF</color>
+    <color name="onPrimaryContainer">#3F0012</color>
+    <color name="secondary">#6D1CFF</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="secondaryContainer">#E9DDFF</color>
+    <color name="onSecondaryContainer">#20005F</color>
+    <color name="tertiary">#006399</color>
+    <color name="onTertiary">#FFFFFF</color>
+    <color name="tertiaryContainer">#CBE5FF</color>
+    <color name="onTertiaryContainer">#001D32</color>
+    <color name="error">#FF1D10</color>
+    <color name="errorContainer">#F9DEDC</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="onErrorContainer">#410E0B</color>
+    <color name="background">#FFFDFD</color>
+    <color name="onBackground">#191C1A</color>
+    <color name="surface">#FBFDF9</color>
+    <color name="onSurface">#191C1A</color>
+    <color name="surfaceVariant">#E7E0EC</color>
+    <color name="onSurfaceVariant">#49454F</color>
+    <color name="outline">#79747E</color>
+    <color name="inverseOnSurface">#EFF2EE</color>
+    <color name="inverseSurface">#2E312F</color>
+    <color name="inversePrimary">#FFB2BF</color>
+    <color name="shadow">#000000</color>
+    <color name="primaryInverse">#FFB2BF</color>
+
+    <color name="backgroundAccent">#FFF5F8</color>
+</resources>
