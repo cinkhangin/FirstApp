@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_finish"
+        android:title="Finish" />
+
+    <item
+        android:id="@+id/action_one"
+        android:title="Menu One" />
+
+    <item
+        android:id="@+id/action_two"
+        android:title="Menu Two" />
+
+    <item
+        android:id="@+id/action_icon"
+        android:title="Icon Menu"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -12,21 +12,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val viewBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
-
-        viewBinding.apply {
-            button.setOnClickListener {
-                //txtView.text = "Click"
-                //val color = Color.CYAN
-                //txtView.setTextColor(color)
-                //image.setImageResource(R.mipmap.ic_launcher_round)
-
-                progress.visibility = if (progress.visibility == View.VISIBLE) View.GONE
-                else View.VISIBLE
-            }
-        }
-    }
-
-    private fun changeText() {
-
     }
 }
