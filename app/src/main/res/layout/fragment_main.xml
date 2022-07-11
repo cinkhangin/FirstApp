@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/app_name"
+            app:titleCentered="true" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"
+            android:text="Page 1" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"
+            android:text="Page 2" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:text="Page 3" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:text="Page 4" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:text="Page 5" />
+
+
+    </LinearLayout>
+</LinearLayout>
