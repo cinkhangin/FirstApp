@@ -15,7 +15,7 @@
             android:id="@+id/action_firstFragmentTo_secondFragment"
             app:destination="@id/secondFragment"
             app:popUpTo="@id/firstFragment"
-            app:popUpToInclusive="false"/>
+            app:popUpToInclusive="false" />
 
     </fragment>
 
@@ -23,6 +23,9 @@
         android:id="@+id/secondFragment"
         android:name="com.naulian.firstapp.SecondFragment"
         android:label="second_fragment"
-        tools:layout="@layout/fragment_second"
-        />
+        tools:layout="@layout/fragment_second">
+        <argument
+            android:name="article"
+            app:argType="com.naulian.firstapp.Article" />
+    </fragment>
 </navigation>

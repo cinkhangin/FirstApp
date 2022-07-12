@@ -25,56 +25,10 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-
-        <ListView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-
-        <TextView
-            android:id="@+id/txt1"
-            android:layout_width="match_parent"
-            android:textStyle="bold"
-            android:textSize="28sp"
-            android:layout_height="wrap_content"
-            android:text="Page 1" />
-
-        <TextView
-            android:id="@+id/txt2"
-            android:layout_marginTop="12dp"
-            android:layout_width="match_parent"
-            android:textStyle="bold"
-            android:textSize="28sp"
-            android:layout_height="wrap_content"
-            android:text="Page 2" />
-
-        <TextView
-            android:id="@+id/txt3"
-            android:layout_width="match_parent"
-            android:textStyle="bold"
-            android:textSize="28sp"
-            android:layout_marginTop="12dp"
-            android:layout_height="wrap_content"
-            android:text="Page 3" />
-
-        <TextView
-            android:id="@+id/txt4"
-            android:layout_width="match_parent"
-            android:textStyle="bold"
-            android:textSize="28sp"
-            android:layout_marginTop="12dp"
-            android:layout_height="wrap_content"
-            android:text="Page 4" />
-
-        <TextView
-            android:id="@+id/txt5"
-            android:layout_width="match_parent"
-            android:textStyle="bold"
-            android:textSize="28sp"
-            android:layout_marginTop="12dp"
-            android:layout_height="wrap_content"
-            android:text="Page 5" />
-
 
     </LinearLayout>
 </LinearLayout>

@@ -4,10 +4,15 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
 import android.widget.Toast
+import androidx.core.content.ContextCompat
+import androidx.navigation.NavArgs
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
 import com.naulian.firstapp.databinding.FragmentSecondBinding
 
 class SecondFragment : Fragment(R.layout.fragment_second) {
+
+    private val args : SecondFragmentArgs by navArgs()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -41,19 +46,19 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
                 }
             }
 
-            btnBack.setOnClickListener {
-                findNavController().popBackStack()
+            val listener = object : Listener{
+                override fun onClick() {
+
+                }
             }
 
-            txt.text = when(Singleton.currentPage){
-                0 -> "Page 0"
-                1 -> "Page 1"
-                2 -> "Page 2"
-                3 -> "Page 3"
-                4 -> "Page 4"
-                5 -> "Page 5"
-                else -> "Page Not Found"
+            btnBack.setOnClickListener {
+                listener.onClick()
             }
+
+            val article = args.article
+            image.setImageResource(article.image)
+            txt.text = article.content
 
         }
     }
